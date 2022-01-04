@@ -13,10 +13,10 @@ export interface FIconProps {
 	disabled?: boolean;
 	onClick?: OnClickFunction<void>;
 
-	// svg path css style of FIcon
-	svgClassName?: string;
-	svgFillColor?: FColorTypes;
-	svgStyle?: CSSProperties;
+	// css style of FIcon svg path
+	fillColor?: FColorTypes;
+	strokeColor?: FColorTypes;
+	strokeWidth?: number | string;
 }
 
 export enum FIconTypes {
