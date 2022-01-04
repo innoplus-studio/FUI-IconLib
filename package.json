@@ -1,0 +1,38 @@
+{
+	"name": "@fantaskticedtechlimited/fui-iconlib",
+	"version": "0.0.1",
+	"description": "Fantasktic UI Icon library",
+	"main": "./lib/cjs/index.js",
+	"module": "./lib/esm/index.js",
+	"types": "./lib/esm/index.d.ts",
+	"repository": "https://github.com/FantaskticEdTechLimited/FUI-IconLib.git",
+	"author": "pakmatthew",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"build": "yarn build:esm && yarn build:cjs",
+		"build:esm": "tsc",
+		"build:cjs": "tsc --module commonjs --outDir lib/cjs"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"peerDependencies": {
+		"react": "^16.8.0",
+		"react-dom": "^16.8.0"
+	},
+	"files": [
+		"/lib"
+	],
+	"devDependencies": {
+		"@types/react": "^17.0.38",
+		"@types/react-dom": "^17.0.11",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"typescript": "^4.5.4"
+	},
+	"dependencies": {
+		"@fantaskticedtechlimited/fui-colorlib": "^0.0.2",
+		"typestyle": "^2.2.0"
+	}
+}
