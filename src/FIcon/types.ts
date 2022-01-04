@@ -1,3 +1,4 @@
+import { FColorTypes } from "@fantaskticedtechlimited/fui-colorlib";
 import { CSSProperties } from "react";
 
 type OnClickFunction<T> = (data?: T) => void;
@@ -14,6 +15,7 @@ export interface FIconProps {
 
 	// svg path css style of FIcon
 	svgClassName?: string;
+	svgFillColor?: FColorTypes;
 	svgStyle?: CSSProperties;
 }
 

@@ -300,7 +300,7 @@ export const handleFIcon = (props: FIconProps) => {
 						d="M4 15C4 15 5 14 8 14C11 14 13 16 16 16C19 16 20 15 20 15V3C20 3 19 4 16 4C13 4 11 2 8 2C5 2 4 3 4 3V15Z"
 						style={props.svgStyle}
 						className={props.svgClassName + " " + styles.FIconSVGLarge}
-						fill={FColorTypes.PURE_WHITE}
+						fill={props.svgFillColor ?? FColorTypes.PURE_WHITE}
 					/>
 					<path
 						d="M4 22V15"
@@ -314,7 +314,7 @@ export const handleFIcon = (props: FIconProps) => {
 						d="M2.66669 9.99998C2.66669 9.99998 3.33335 9.33331 5.33335 9.33331C7.33335 9.33331 8.66669 10.6666 10.6667 10.6666C12.6667 10.6666 13.3334 9.99998 13.3334 9.99998V1.99998C13.3334 1.99998 12.6667 2.66665 10.6667 2.66665C8.66669 2.66665 7.33335 1.33331 5.33335 1.33331C3.33335 1.33331 2.66669 1.99998 2.66669 1.99998V9.99998Z"
 						style={props.svgStyle}
 						className={props.svgClassName + " " + styles.FIconSVGSmall}
-						fill={FColorTypes.PURE_WHITE}
+						fill={props.svgFillColor ?? FColorTypes.PURE_WHITE}
 					/>
 					<path
 						d="M2.66669 14.6667V10"
@@ -632,19 +632,19 @@ export const handleFIcon = (props: FIconProps) => {
 						d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z"
 						style={props.svgStyle}
 						className={props.svgClassName + " " + styles.FIconSVGLarge}
-						fill={FColorTypes.BLACK}
+						fill={props.svgFillColor ?? FColorTypes.BLACK}
 					/>
 					<path
 						d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z"
 						style={props.svgStyle}
 						className={props.svgClassName + " " + styles.FIconSVGLarge}
-						fill={FColorTypes.BLACK}
+						fill={props.svgFillColor ?? FColorTypes.BLACK}
 					/>
 					<path
 						d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z"
 						style={props.svgStyle}
 						className={props.svgClassName + " " + styles.FIconSVGLarge}
-						fill={FColorTypes.BLACK}
+						fill={props.svgFillColor ?? FColorTypes.BLACK}
 					/>
 				</>
 			) : (
@@ -653,19 +653,19 @@ export const handleFIcon = (props: FIconProps) => {
 						d="M7.99999 8.66668C8.36818 8.66668 8.66666 8.3682 8.66666 8.00001C8.66666 7.63182 8.36818 7.33334 7.99999 7.33334C7.63181 7.33334 7.33333 7.63182 7.33333 8.00001C7.33333 8.3682 7.63181 8.66668 7.99999 8.66668Z"
 						style={props.svgStyle}
 						className={props.svgClassName + " " + styles.FIconSVGSmall}
-						fill={FColorTypes.BLACK}
+						fill={props.svgFillColor ?? FColorTypes.BLACK}
 					/>
 					<path
 						d="M7.99999 3.99999C8.36818 3.99999 8.66666 3.70151 8.66666 3.33332C8.66666 2.96513 8.36818 2.66666 7.99999 2.66666C7.63181 2.66666 7.33333 2.96513 7.33333 3.33332C7.33333 3.70151 7.63181 3.99999 7.99999 3.99999Z"
 						style={props.svgStyle}
 						className={props.svgClassName + " " + styles.FIconSVGSmall}
-						fill={FColorTypes.BLACK}
+						fill={props.svgFillColor ?? FColorTypes.BLACK}
 					/>
 					<path
 						d="M7.99999 13.3333C8.36818 13.3333 8.66666 13.0349 8.66666 12.6667C8.66666 12.2985 8.36818 12 7.99999 12C7.63181 12 7.33333 12.2985 7.33333 12.6667C7.33333 13.0349 7.63181 13.3333 7.99999 13.3333Z"
 						style={props.svgStyle}
 						className={props.svgClassName + " " + styles.FIconSVGSmall}
-						fill={FColorTypes.BLACK}
+						fill={props.svgFillColor ?? FColorTypes.BLACK}
 					/>
 				</>
 			);
