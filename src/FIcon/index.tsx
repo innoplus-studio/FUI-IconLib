@@ -6,6 +6,7 @@ import { FIconProps } from "./types";
 export const FIcon = (props: FIconProps) => {
 	return (
 		<svg
+			onClick={() => props.disabled ? undefined : props.onClick && props.onClick()}
 			style={props.containerStyle}
 			className={props.containerClassName + " " + styles.FIconContainer(props)}
 			viewBox={props.size === "large" ? `0 0 24 24` : `0 0 16 16`}
