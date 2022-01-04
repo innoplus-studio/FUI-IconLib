@@ -1,3 +1,4 @@
 import { FIcon } from "./FIcon";
+import { FIconTypes } from "./FIcon/types"
 
-export { FIcon }
+export { FIcon, FIconTypes }
