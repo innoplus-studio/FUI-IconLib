@@ -4,14 +4,14 @@ import { CSSProperties } from "react";
 type OnClickFunction<T> = (data?: T) => void;
 
 export interface FIconProps {
-	name: FIconTypes;
-	size: "small" | "large";
+	disabled?: boolean;
+	name?: FIconTypes;
+	onClick?: OnClickFunction<void>;
+	size?: "small" | "large";
 
 	// css style of FIcon container
 	containerClassName?: string;
 	containerStyle?: CSSProperties;
-	disabled?: boolean;
-	onClick?: OnClickFunction<void>;
 
 	// css style of FIcon svg path
 	fillColor?: FColorTypes;

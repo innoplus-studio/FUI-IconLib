@@ -1,14 +1,14 @@
 import { style } from "typestyle";
-import { FIconProps } from "./types";
 
-export const FIconContainer = (props: FIconProps) => style({ 
-    cursor: props.disabled ? "not-allowed" : "pointer",
-    height: props.size === "large" ? "1.5rem" : "1rem", 
-    overflow: "visible",
-    width: props.size === "large" ? "1.5rem" : "1rem",
-    $nest: {
-        "&> path":{
-            strokeOpacity: props.disabled ? 0.4 : 1
-        }
-    }
-})
+export const FIconContainer = (disabled: boolean, size: string) =>
+	style({
+		cursor: disabled ? "not-allowed" : "pointer",
+		height: size === "large" ? "1.5rem" : "1rem",
+		overflow: "visible",
+		width: size === "large" ? "1.5rem" : "1rem",
+		$nest: {
+			"&> path": {
+				strokeOpacity: disabled ? 0.4 : 1,
+			},
+		},
+	});
