@@ -1,6 +1,6 @@
 {
 	"name": "@fantaskticedtechlimited/fui-iconlib",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"description": "Fantasktic UI Icon library",
 	"main": "./lib/cjs/index.js",
 	"module": "./lib/esm/index.js",
