@@ -40,6 +40,16 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
+		case FIconTypes.ARROW_DOWN:
+			return (
+				<path
+					d="M4 6L8 10L12 6"
+					stroke={props.strokeColor ?? FColorTypes.BLACK}
+					strokeWidth="1.2"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+				/>
+			);
 		case FIconTypes.AWARD:
 			return size === "large" ? (
 				<>

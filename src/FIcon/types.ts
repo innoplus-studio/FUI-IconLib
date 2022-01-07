@@ -21,6 +21,7 @@ export interface FIconProps {
 
 export enum FIconTypes {
 	ADD = "add",
+	ARROW_DOWN = "arrow_down",
 	AWARD = "award",
 	BAR_CHART = "bar_chart",
 	BOOK = "book",
