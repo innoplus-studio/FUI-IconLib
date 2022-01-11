@@ -14,8 +14,8 @@ export interface FIconProps {
 	containerStyle?: CSSProperties;
 
 	// css style of FIcon svg path
-	fillColor?: FColorTypes;
-	strokeColor?: FColorTypes;
+	fillColor?: FColorTypes | string;
+	strokeColor?: FColorTypes | string;
 	strokeWidth?: number | string;
 }
 
