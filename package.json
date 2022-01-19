@@ -1,6 +1,6 @@
 {
 	"name": "@fantaskticedtechlimited/fui-iconlib",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"description": "Fantasktic UI Icon library",
 	"main": "./lib/cjs/index.js",
 	"module": "./lib/esm/index.js",
@@ -32,7 +32,7 @@
 		"typescript": "^4.5.4"
 	},
 	"dependencies": {
-		"@fantaskticedtechlimited/fui-colorlib": "^0.0.2",
+		"@fantaskticedtechlimited/fui-colorlib": "^0.0.3",
 		"typestyle": "^2.2.0"
 	}
 }
