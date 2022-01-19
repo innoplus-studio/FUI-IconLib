@@ -190,7 +190,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					strokeLinejoin="round"
 				/>
 			);
-		case "calendar":
+		case FIconTypes.CALENDAR:
 			return size === "large" ? (
 				<>
 					<path
