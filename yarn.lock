@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@fantaskticedtechlimited/fui-colorlib@^0.0.2":
-  version "0.0.2"
-  resolved "https://npm.pkg.github.com/download/@fantaskticedtechlimited/fui-colorlib/0.0.2/2cc1d11fb28774801facf971aeb0b573155b2eeb5355e468166d42bc8e42d921#1f7d4fa4374145a233c8b5849689a5097629e06b"
-  integrity sha512-eSFtQU3cVj/zEKmo0Jn+6a3H3zsjHrN6DuD8nAmEqcBvhN6MQu1Yamk/ViRKLcqnahAV559Aa4xQJZrRVVlWeA==
+"@fantaskticedtechlimited/fui-colorlib@^0.0.5":
+  version "0.0.5"
+  resolved "https://npm.pkg.github.com/download/@fantaskticedtechlimited/fui-colorlib/0.0.5/3c48537bb46875c70516bf73b4359b881cba64c28750260c114e69d40c9dc97d#4235663b5bc59be2b8a4668fb9fe020d7ef47697"
+  integrity sha512-IDRdciWrFO7s0ONjR3BfQAOfB1pcgDsm0OOK1hxhRI5z+F5cC/1MtkXCmcC+gbrP0xUR48Fnse41xcD+dgvMOQ==
 
 "@types/prop-types@*":
   version "15.7.4"

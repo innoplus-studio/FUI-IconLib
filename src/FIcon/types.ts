@@ -1,12 +1,11 @@
-import { FColorTypes } from "@fantaskticedtechlimited/fui-colorlib";
 import { CSSProperties } from "react";
 
-type OnClickFunction<T> = (data?: T) => void;
+export type OnClickFunction = () => void;
 
 export interface FIconProps {
 	disabled?: boolean;
 	name?: FIconTypes;
-	onClick?: OnClickFunction<void>;
+	onClick?: OnClickFunction;
 	size?: "small" | "large";
 
 	// css style of FIcon container
@@ -14,8 +13,8 @@ export interface FIconProps {
 	containerStyle?: CSSProperties;
 
 	// css style of FIcon svg path
-	fillColor?: FColorTypes | string;
-	strokeColor?: FColorTypes | string;
+	fillColor?: string;
+	strokeColor?: string;
 	strokeWidth?: number | string;
 }
 
