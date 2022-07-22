@@ -48,6 +48,6 @@ export enum FIconTypes {
 	SEARCH = "search",
 	SELECT = "select",
 	SETTING = "setting",
-	TOPIC = "topic",
+	CHAPTER = "chapter",
 	USER = "user",
 }
