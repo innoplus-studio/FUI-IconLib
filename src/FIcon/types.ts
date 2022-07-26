@@ -9,8 +9,8 @@ export interface FIconProps {
 	size?: "small" | "large";
 
 	// css style of FIcon container
-	containerClassName?: string;
-	containerStyle?: CSSProperties;
+	className?: string;
+	style?: CSSProperties;
 
 	// css style of FIcon svg path
 	fillColor?: string;

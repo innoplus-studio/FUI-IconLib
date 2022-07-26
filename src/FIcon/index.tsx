@@ -10,11 +10,9 @@ export const FIcon = (props: FIconProps) => {
 			onClick={() =>
 				props.disabled ? undefined : props.onClick && props.onClick()
 			}
-			style={props.containerStyle}
+			style={props.style}
 			className={
-				props.containerClassName +
-				" " +
-				styles.FIconContainer(props.disabled!, size)
+				props.className + " " + styles.FIconContainer(props.disabled!, size)
 			}
 			viewBox={size === "large" ? `0 0 24 24` : `0 0 16 16`}
 			fill="none"
