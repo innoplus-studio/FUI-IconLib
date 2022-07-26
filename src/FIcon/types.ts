@@ -4,7 +4,7 @@ export type OnClickFunction = () => void;
 
 export interface FIconProps {
 	disabled?: boolean;
-	name?: FIconTypes;
+	name?: FIconNames;
 	onClick?: OnClickFunction;
 	size?: "small" | "large";
 
@@ -18,7 +18,7 @@ export interface FIconProps {
 	strokeWidth?: number | string;
 }
 
-export enum FIconTypes {
+export enum FIconNames {
 	ADD = "add",
 	ARROW_DOWN = "arrow_down",
 	AWARD = "award",

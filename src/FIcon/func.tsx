@@ -1,10 +1,10 @@
 import { FColorTypes } from "@fantaskticedtechlimited/fui-colorlib";
 import React from "react";
-import { FIconProps, FIconTypes } from "./types";
+import { FIconProps, FIconNames } from "./types";
 
 export const handleFIcon = (props: FIconProps, size: string) => {
 	switch (props.name) {
-		case FIconTypes.ADD:
+		case FIconNames.ADD:
 			return size === "large" ? (
 				<>
 					<path
@@ -40,7 +40,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.ARROW_DOWN:
+		case FIconNames.ARROW_DOWN:
 			return (
 				<path
 					d="M4 6L8 10L12 6"
@@ -50,7 +50,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					strokeLinejoin="round"
 				/>
 			);
-		case FIconTypes.AWARD:
+		case FIconNames.AWARD:
 			return size === "large" ? (
 				<>
 					<path
@@ -86,7 +86,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.BAR_CHART:
+		case FIconNames.BAR_CHART:
 			return size === "large" ? (
 				<>
 					<path
@@ -136,7 +136,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.BOOK:
+		case FIconNames.BOOK:
 			return size === "large" ? (
 				<>
 					<path
@@ -172,7 +172,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.BOOK_MARK:
+		case FIconNames.BOOK_MARK:
 			return size === "large" ? (
 				<path
 					d="M19 21L12 16L5 21V5C5 4.46957 5.21071 3.96086 5.58579 3.58579C5.96086 3.21071 6.46957 3 7 3H17C17.5304 3 18.0391 3.21071 18.4142 3.58579C18.7893 3.96086 19 4.46957 19 5V21Z"
@@ -190,7 +190,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					strokeLinejoin="round"
 				/>
 			);
-		case FIconTypes.CALENDAR:
+		case FIconNames.CALENDAR:
 			return size === "large" ? (
 				<>
 					<path
@@ -254,7 +254,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.CLOSE:
+		case FIconNames.CLOSE:
 			return size === "large" ? (
 				<>
 					<path
@@ -290,7 +290,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.DELETE:
+		case FIconNames.DELETE:
 			return size === "large" ? (
 				<>
 					<path
@@ -354,7 +354,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.EMAIL:
+		case FIconNames.EMAIL:
 			return size === "large" ? (
 				<>
 					<path
@@ -390,7 +390,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.FLAG:
+		case FIconNames.FLAG:
 			return size === "large" ? (
 				<>
 					<path
@@ -428,7 +428,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.GIFT:
+		case FIconNames.GIFT:
 			return size === "large" ? (
 				<>
 					<path
@@ -506,7 +506,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.HOME:
+		case FIconNames.HOME:
 			return size === "large" ? (
 				<>
 					<path
@@ -542,7 +542,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.IMAGE:
+		case FIconNames.IMAGE:
 			return size === "large" ? (
 				<>
 					<path
@@ -592,7 +592,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.INPUT:
+		case FIconNames.INPUT:
 			return size === "large" ? (
 				<>
 					<path
@@ -628,7 +628,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.LEFT_ARROW:
+		case FIconNames.LEFT_ARROW:
 			return size === "large" ? (
 				<>
 					<path
@@ -664,7 +664,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.LEFT_CHEVRON:
+		case FIconNames.LEFT_CHEVRON:
 			return size === "large" ? (
 				<path
 					d="M15 18L9 12L15 6"
@@ -682,7 +682,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					strokeLinejoin="round"
 				/>
 			);
-		case FIconTypes.LOGOUT:
+		case FIconNames.LOGOUT:
 			return size === "large" ? (
 				<>
 					<path
@@ -732,7 +732,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.MAXIMIZE:
+		case FIconNames.MAXIMIZE:
 			return size === "large" ? (
 				<>
 					<path
@@ -796,7 +796,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.MENU:
+		case FIconNames.MENU:
 			return size === "large" ? (
 				<>
 					<path
@@ -824,7 +824,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 			) : (
 				<></>
 			);
-		case FIconTypes.MORE:
+		case FIconNames.MORE:
 			return size === "large" ? (
 				<>
 					<path
@@ -880,7 +880,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.MULTI_SELECT:
+		case FIconNames.MULTI_SELECT:
 			return size === "large" ? (
 				<>
 					<path
@@ -916,7 +916,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.NOTIFICATION:
+		case FIconNames.NOTIFICATION:
 			return size === "large" ? (
 				<>
 					<path
@@ -952,7 +952,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.RANKING:
+		case FIconNames.RANKING:
 			return size === "large" ? (
 				<>
 					<path
@@ -988,7 +988,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.RIGHT_ARROW:
+		case FIconNames.RIGHT_ARROW:
 			return size === "large" ? (
 				<>
 					<path
@@ -1024,7 +1024,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.RIGHT_CHEVRON:
+		case FIconNames.RIGHT_CHEVRON:
 			return size === "large" ? (
 				<path
 					d="M9 18L15 12L9 6"
@@ -1042,7 +1042,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					strokeLinejoin="round"
 				/>
 			);
-		case FIconTypes.SEARCH:
+		case FIconNames.SEARCH:
 			return size === "large" ? (
 				<>
 					<path
@@ -1078,7 +1078,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.SELECT:
+		case FIconNames.SELECT:
 			return size === "large" ? (
 				<>
 					<path
@@ -1114,7 +1114,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.SETTING:
+		case FIconNames.SETTING:
 			return (
 				<>
 					{size === "large" ? (
@@ -1162,7 +1162,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					)}
 				</>
 			);
-		case FIconTypes.CHAPTER:
+		case FIconNames.CHAPTER:
 			return size === "large" ? (
 				<>
 					<path
@@ -1226,7 +1226,7 @@ export const handleFIcon = (props: FIconProps, size: string) => {
 					/>
 				</>
 			);
-		case FIconTypes.USER:
+		case FIconNames.USER:
 			return size === "large" ? (
 				<>
 					<path
