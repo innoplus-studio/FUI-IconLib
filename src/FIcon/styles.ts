@@ -6,9 +6,4 @@ export const FIconContainer = (disabled: boolean, size: string) =>
 		height: size === "large" ? "1.5rem" : "1rem",
 		overflow: "visible",
 		width: size === "large" ? "1.5rem" : "1rem",
-		$nest: {
-			"&> path": {
-				strokeOpacity: disabled ? 0.4 : 1,
-			},
-		},
 	});

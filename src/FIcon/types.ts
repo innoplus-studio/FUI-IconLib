@@ -1,23 +1,35 @@
 import { CSSProperties } from "react";
-
-export type OnClickFunction = () => void;
+import {
+	FIconOnClickFunction,
+	FIconOnHoverProperty,
+	FIconPathProps,
+	FIconSVGProps,
+} from "../types";
 
 export interface FIconProps {
+	/** If `true`, the icon will **NOT** be abled to use. */
 	disabled?: boolean;
-	name?: FIconNames;
-	onClick?: OnClickFunction;
+	/** Size of the icon. */
 	size?: "small" | "large";
-
-	// css style of FIcon container
-	className?: string;
-	style?: CSSProperties;
-
-	// css style of FIcon svg path
-	fillColor?: string;
-	strokeColor?: string;
-	strokeWidth?: number | string;
+	/** Name of the icon. */
+	name?: FIconNames;
+	/** Click action event of the icon. */
+	onClick?: FIconOnClickFunction;
+	/** Class name of the icon. */
+	className?: FIconOnHoverProperty<string>;
+	/** Style of the icon. */
+	style?: FIconOnHoverProperty<CSSProperties>;
+	/** Background color of the icon. */
+	fillColor?: FIconOnHoverProperty<string>;
+	/** Stroke color of the icon. */
+	color?: FIconOnHoverProperty<string>;
+	/** SVG properties of the icon. */
+	svgProps?: FIconSVGProps;
+	/** Path properties of the icon. */
+	pathProps?: FIconPathProps;
 }
 
+/** Names of FIcon. */
 export enum FIconNames {
 	ADD = "add",
 	ARROW_DOWN = "arrow_down",
