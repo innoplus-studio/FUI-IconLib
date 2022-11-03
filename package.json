@@ -1,11 +1,11 @@
 {
-	"name": "@fantaskticedtechlimited/fui-iconlib",
-	"version": "1.2.1",
+	"name": "@innoplus-studio/fui-iconlib",
+	"version": "2.0.0",
 	"description": "Fantasktic UI Icon library",
 	"main": "./lib/cjs/index.js",
 	"module": "./lib/esm/index.js",
 	"types": "./lib/esm/index.d.ts",
-	"repository": "https://github.com/FantaskticEdTechLimited/FUI-IconLib.git",
+	"repository": "https://github.com/innoplus-studio/FUI-IconLib.git",
 	"author": "pakmatthew",
 	"license": "MIT",
 	"private": false,
@@ -28,7 +28,7 @@
 		"typescript": "^4.5.4"
 	},
 	"dependencies": {
-		"@fantaskticedtechlimited/fui-colorlib": "^3.2.1",
+		"@innoplus-studio/fui-colorlib": "4.0.0",
 		"typestyle": "^2.3.0"
 	}
 }
