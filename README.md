@@ -2,4 +2,4 @@
 
 To install:
 
-`yarn add @fantaskticedtechlimited/fui-iconlib`
+`yarn add @innoplus-studio/fui-iconlib`
